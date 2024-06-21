@@ -1,0 +1,4 @@
+// script that lists all databases in MongoDB.
+mongosh "mongodb+srv://cluster0.ixnpegi.mongodb.net/" --apiVersion 1 --username gelsonantonio53
+show dbs
+exit
