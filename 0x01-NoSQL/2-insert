@@ -1,0 +1,5 @@
+//  script that inserts a document in the collection school
+mongosh "mongodb+srv://cluster0.ixnpegi.mongodb.net/" --apiVersion 1 --username gelsonantonio53
+use $2
+$2.school.insertOne({"name": "Holberton school"})
+exit
